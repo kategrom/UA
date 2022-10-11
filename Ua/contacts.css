@@ -1,0 +1,356 @@
+*{
+  box-sizing: border-box;
+}
+
+body , html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  margin: 0;
+}
+
+ul , li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  
+  transition: .2s linear;
+  padding-bottom: 20px;
+  z-index: 999;
+}
+
+.header_active{
+  background: #2d506a;
+}
+
+.header__container{
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: flex-end;
+  justify-content: space-between;
+
+  padding-top: 56px;
+}
+
+
+
+.header__logo-black{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 24px;
+  color: rgb(0, 0, 0);
+  
+  background-size: 70px;
+}
+
+.header__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__item{
+  margin-right: 82px;
+}
+
+.header__item:last-child{
+  margin-right: 0;
+}
+
+.header__link{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.header__link:hover,
+.header__link:focus,
+.header__link:active{
+  opacity: .75;
+}
+
+/*footer*/
+.footer{
+  background-color: #0E1D28;
+  padding: 119px 0;
+
+  margin-top: 119px;
+}
+
+.footer__item{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__logo{
+  width: 50%;
+}
+
+.footer__logo-link{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 24px;
+  color: #FFF;
+  
+  background-size: 70px;
+}
+
+.footer__nav{
+  width: 50%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__menu-title{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+
+.footer__menu-link{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+
+.footer__menu-link:hover,
+.footer__menu-link:focus,
+.footer__menu-link:active{
+  color: #686161;
+}
+
+/*contacts*/
+
+.contacts{
+  padding-top: 150px;
+}
+
+.contacts__title{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+
+  color: #102746;  
+}
+
+.map__img{
+  height: 400px;
+  width: 600px;
+
+  padding-top: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.map__img:hover,
+.map__img:focus,
+.map__img:active{
+  transform: scale(1.05);
+  margin-left: 10px;
+}
+
+.map__text-block{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.map__text-title{
+  text-decoration: underline;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+
+  margin-bottom: 15px;
+}
+
+
+.map__description{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.map__text{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.map__description-link{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 24px;
+
+  color: #2e77d5;  
+}
+
+.map__description-link:hover,
+.map__description-link:focus,
+.map__description-link:active{
+  color: #13325a; 
+}
+
+/*Tour*/
+.tour-two{
+  width: 519px;
+  margin-right: 0;
+}
+
+.tour__title-two{
+  width: 357px;
+  margin-right: 0;
+}
+
+.tours__tour{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 108px ;
+
+  align-items: center;
+
+  margin-bottom: 77px;
+}
+
+.tour__title{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #102746;  
+}
+
+.tour__description{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  
+  color: #102746;
+
+  margin-bottom: 58px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  /* width: 519px; */
+}
+
+/*Team cards*/
+
+.people__img{
+  width: 310px;
+  height: 294px;
+}
+
+.team__cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.team__title{
+  text-align: center;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 34px;
+  
+  color: #102746;
+}
+
+.people__work{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 24px;
+}
+
+.people__description{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.people__link{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 24px;
+
+  color: #264266;  
+}
+
+.people__link:hover,
+.people__link:focus,
+.people__link:active{
+  color: #3469ae; 
+}
+
+.team__card:first-child{
+  margin-left: 0;
+}
+
+.team__card:nth-child(2){
+  margin-left: 100px;
+}
+
+.team__card:last-child{
+  margin-right: 0;
+  margin-left: 120px;
+}

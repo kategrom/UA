@@ -1,0 +1,150 @@
+.places{
+  margin-bottom: 139px;
+}
+
+.places__title{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  color: #102746;
+
+  position: relative;
+
+  padding-bottom: 10px;
+
+  margin-right: 15px;
+}
+
+.places__title::after{
+  display: block;
+  content: '';
+
+  width: 253px;
+  height: 3px;
+  background-color: #006DFE;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.places__caption{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 36px;
+}
+
+.places__view{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  
+  color: #006DFE;
+}
+
+.places__card{
+  position: relative;
+}
+
+.places__card::after{
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(21, 24, 36, 0.4); */
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.places__card-title{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+
+  color: #FFFFFF;  
+
+  position: absolute;
+  bottom: 27px;
+  left: 29px;
+  z-index: 3;
+}
+
+.places__cards{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.places__card:hover,
+.places__img{
+  transform: scale(1.05);
+}
+
+.places__card_size_lg{
+  grid-column: span 3;
+  gap: 10px;
+}
+
+.places__card_size_sm{
+  grid-column: span 2;
+  gap: 10px;
+}
+
+.places__img{
+  height: 354px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.places__img_size_lg{
+  height: 283px;
+  object-fit: cover;
+}
+
+.places__img_size_sm{
+  height: 354px;
+  object-fit: cover;
+}
+
+.places__card-link{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+
+.img__size-lg{
+  width: 590px;
+  height: 354px;
+
+  /* padding-left: 10px; */
+  margin-left: 7px;
+
+  margin-bottom: 30px;
+}
+
+.img__size-lg:last-child{
+  /* padding-left: 0; */
+  margin-left: 0;
+}
+
+
+.img__size-sm{
+  width: 390px;
+  height: 283px;
+}

@@ -1,0 +1,132 @@
+.top{
+  margin-bottom: 86px;
+}
+
+.top__card{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.top__img{
+  width: 350px;
+  height: 350px;
+}
+
+.top__cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 37px;
+}
+
+.top__title{
+  margin-bottom: 54px;
+}
+
+.top__card-title{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #FFFFFF;  
+}
+
+.top__card-img{
+  position: relative;
+
+  margin-right: 45px;
+}
+
+.top__card-stats{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: end;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(21, 24, 36, 0.6);
+
+  padding: 16px 25px;
+}
+
+.top__card-title{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #FFFFFF; 
+  margin: 0 auto 0 0; 
+}
+
+.top__card-likes{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  
+  color: #FFFFFF;
+
+  background: url(../top-photos/love.png) no-repeat right;
+  background-size: 16px;
+  padding-right: 20px;
+
+  margin-right: 14px;
+}
+
+.top__card-coment{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  
+  color: #FFFFFF;
+
+  background: url(../top-photos/sms.png) no-repeat right;
+  background-size: 16px;
+  padding-right: 23px;
+}
+
+.top__card-description{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  
+  color: #102746;
+
+  margin-bottom: 31px;
+
+  max-width: 350px;
+}
+
+.top__card-more{
+  background: #006DFE;
+  padding: 12px 19px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #FFFFFF;
+
+  width: 175px;
+  margin: auto 0 0 0;
+}
+
+.top__card-more:hover,
+.top__card-more:focus,
+.top__card-more:active{
+  background: #3c6396;
+}

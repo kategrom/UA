@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <title>Головна</title>
+</head>
+<body>
+  <header class="header"> 
+    <div class="container">
+
+    <div class="header__container">
+      <a href="index.html" class="header__logo">
+        GudUa
+      </a>
+      
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item">
+          <a href="./index.html" class="header__link  header__portfolio" target = "_ blank">
+            Головна
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="./location.html" class="header__link header__portfolio" target = "_ blank">
+            Локації
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="./contacts.html" class="header__link header__portfolio" target = "_ blank">
+            Контакти
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="./index-en.html" class="header__link header__portfolio" target = "_ blank">
+            English Version
+          </a>
+        </li>
+      </ul>
+      <div class="header__nav-close">
+        <span class="header__nav-close-line"></span>
+        <span class="header__nav-close-line"></span>
+      </div>
+    </nav>
+
+    <div class="header__burger burger">
+      <span class="burger__line burger__line_first"></span>
+      <span class="burger__line burger__line_second"></span>
+      <span class="burger__line burger__line_third"></span>
+    </div>
+
+    </div>
+  </div>
+  </header>
+
+  <main class="main">
+    <section class="intro">
+
+      <div class="container">
+        <h1 class="intro__title">
+          Відкрийте для себе дивовижні місця в Україні
+        </h1>
+
+        <p class="intro__subtitle">
+          Дивовижні місця України - це не тільки відпочинок в горах, на берегу моря. Але й екскурсії по видатним місцям, приємна компанія, нові знання.
+        </p>
+
+        <form class="search-form">
+          <fieldset class="search-form__wrap">
+            <p class="search-form__info">
+              <input type="text" name="user-like-to-do" class="search-form-field" placeholder="Що ви любите робити?">
+              <input type="text" name="user-like-to-go" class="search-form-field" placeholder="Куди б ви хотіли поїхати?">
+              <button type="submit" class="search-form__submit">
+                Шукати
+              </button>
+            </p>
+          </fieldset>
+        </form>
+
+      </div>
+    </section>
+
+    <section class="benefits">
+
+      <div class="benefits__container">
+        <h2 class="benefits__title">
+          Наші переваги:
+        </h2>
+
+        <div class="benefits__cards">
+          <div class="benefits__card">
+            <div class="benefits__card-pic">
+              <!-- <img src="./benefits-photos/house-photo.svg" alt="hoese-icon" class="benefits__carg-img"> -->
+              
+              <h3 class="benefits__card-title">
+                Планування
+              </h3>
+
+              <p class="benefits__card-description">
+                Ви можете запланувати путівку заздалегіть, або за декілька годин. 
+              </p>
+
+              <a href="#" class="benefits__card-more">
+                Дізнатися більше
+              </a>
+            </div>
+          </div>
+          
+          <div class="benefits__card">
+            <div class="benefits__card-pic">
+              <!-- <img src="./benefits-photos/pearson-icon-photo.svg" alt="hoese-icon" class="benefits__carg-img"> -->
+              
+              <h3 class="benefits__card-title">
+                Ваш персональний гід
+              </h3>
+
+              <p class="benefits__card-description">
+                Ви можете замовити групового гіда по місту, або індивідуального.
+              </p>
+
+              <a href="#" class="benefits__card-more">
+                Дізнатися більше
+              </a>
+            </div>
+          </div>
+          <div class="benefits__card">
+            <div class="benefits__card-pic">
+              <!-- <img src="./benefits-photos/diagram 1.png" alt="hoese-icon" class="benefits__carg-img"> -->
+
+              <h3 class="benefits__card-title">
+                Сучасні технології
+              </h3>
+
+              <p class="benefits__card-description">
+                Ми проводимо онлайн екскурсії, тому ви можете відпочивати не виходячи з дому.
+              </p>
+
+              <a href="#" class="benefits__card-more">
+                Дізнатися більше
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="places">
+      <div class="container__full">
+        <div class="places__caption">
+          <h2 class="places__title">
+            Отримайте натхнення для наступної подорожі
+          </h2>
+          <a href="#" class="places__view">Дізнатися більше</a>
+        </div>
+
+        <div class="places__cards">
+          <figure class="places__card places__card_size_lg">
+            <img src="./places-photos/ua.jpg" alt="Ukraine place - Kyiv" class="places__img places__img_size_lg img__size-lg">
+            <figcaption class="places__card-title">
+            Київ
+            </figcaption>
+            <a href="#" class="places__card-link"></a>
+          </figure>
+
+          <figure class="places__card places__card_size_lg">
+            <img src="./places-photos/ua2(harkiv).jpg" alt="Ukraine place - Kharkiv" class="places__img places__img_size_lg img__size-lg">
+            <figcaption class="places__card-title">
+            Харків
+            </figcaption>
+            <a href="#" class="places__card-link"></a>
+          </figure>
+          
+
+          <figure class="places__card places__card_size_sm">
+            <img src="./places-photos/ua(frankivsyk).jpg" alt="Ukraine place - Ivano-Frankivsk" class="places__img places__img_size_sm img__size-sm">
+            <figcaption class="places__card-title">
+            Івано Франківськ
+            </figcaption>
+            <a href="#" class="places__card-link"></a>
+          </figure>
+
+          <figure class="places__card places__card_size_sm">
+            <img src="./places-photos/ua(liviv).jpg" alt="Ukraine place - Lviv" class="places__img places__img_size_sm img__size-sm">
+            <figcaption class="places__card-title">
+            Львів
+            </figcaption>
+            <a href="#" class="places__card-link"></a>
+          </figure>
+
+          <figure class="places__card places__card_size_sm">
+            <img src="./places-photos/ua(ternopil).jpg" alt="Ukraine place - Ternopil" class="places__img places__img_size_sm img__size-sm">
+            <figcaption class="places__card-title">
+            Тернопіль
+            </figcaption>
+            <a href="#" class="places__card-link"></a>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="tours">
+      <div class="container__tour">
+
+        <div class="tours__tour tour">
+          <div class="tour__pic">
+            <img src="./tours-photos/Kiyv.jpg" alt="Київ" class="tour__thumb tour__photo-size">
+          </div>
+          <div class="tour__info">
+            <h3 class="tour__title">
+              Київ - столиця України, найбільше місто в Україні
+            </h3>
+
+            <p class="tour__description">
+              Ки́їв — столиця та найбільше місто України, одне з найбільших і найстаріших міст Європи. Україна ділиться на лівий та правий береги.
+               В Києві є багато музеїв та стародавних місць. Такі як "Золоті Ворота", "Києво-Печерська Лавра" та "Андріївський Узвіз".
+            </p>
+
+            <a href="#" class="tour__more">
+              Дізнатися Більше
+            </a>
+          </div>
+          
+        </div>
+
+        <div class="tours__tour tour">
+          
+          <div class="tour__info">
+            <h3 class="tour__title tour__title-two">
+              Львів - найкрасивіше місто в Україні
+            </h3>
+
+            <p class="tour__description tour-two">
+              За статистикою "Найкрасивіші міста України" Львів посідає друге місце.
+              У Львові знаходиться багато стародавніх замків та музеїв. Один з замків "Золочіївський".
+              Зо́лочівський за́мок — замок, пам'ятка історії та культури національного значення в місті Золочеві Львівської області в Україні. Музей-заповідник «Золочівський замок» — відділ Львівської галереї мистецтв. 
+            </p>
+
+            <a href="#" class="tour__more">
+              Дізнатися Більше
+            </a>
+          
+          </div>
+          <div class="tour__pic">
+            <img src="./tours-photos/Pidkova.jpg" alt="Золота Підкова на Львівщині" class="tour__thumb tour__photo-size">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <section class="top">
+      <div class="container__full">
+        <h2 class="top__title places__title">
+          Шість цікавих місць у Києві
+        </h2>
+
+        <div class="top__cards">
+          <div class="top__card">
+            <div class="top__card-img">
+              <img src="./top-photos/Sobor.jpg" alt="Володимирський Собор" class="top__img">
+              <div class="top__card-stats">
+                <h3 class="top__card-title">
+                  Володимирський Собор
+                </h3>
+
+                <div class="top__card-likes">
+                  <span class="top__card-likes-value">
+                    821
+                  </span>
+                </div>
+
+                <div class="top__card-coment">
+                  <span class="top__card-coment-value">
+                    98
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <p class="top__card-description">
+              Володимирський Собор у Києві - один з головних діючих храмів Києва, будівництво якого було приурочено річниці Хрещення Києва.
+
+            </p>
+
+            <a href="#" class="top__card-more">
+             ШУКАТИ БІЛЬШЕ
+            </a>
+          </div>
+          <div class="top__card">
+            <div class="top__card-img">
+              <img src="./top-photos/Min_Kyiv.png" alt="Парк Київ у мініатюрі" class="top__img">
+              <div class="top__card-stats">
+                <h3 class="top__card-title">
+                  "Київ у мініатюрі"
+                </h3>
+
+                <div class="top__card-likes">
+                  <span class="top__card-likes-value">
+                    221
+                  </span>
+                </div>
+
+                <div class="top__card-coment">
+                  <span class="top__card-coment-value">
+                    56
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <p class="top__card-description">
+              Унікальний і незвичайний парк «Київ у мініатюрі» - перебуває на Броварському проспекті, неподалік від станції метро Гідропарк.
+            </p>
+
+            <a href="#" class="top__card-more">
+              ШУКАТИ БІЛЬШЕ
+            </a>
+          </div>
+          <div class="top__card">
+            <div class="top__card-img">
+              <img src="./top-photos/Navod.jpg" alt="Наводницький парк" class="top__img">
+              <div class="top__card-stats">
+                <h3 class="top__card-title">
+                  Наводницький парк
+                </h3>
+
+                <div class="top__card-likes">
+                  <span class="top__card-likes-value">
+                    521
+                  </span>
+                </div>
+
+                <div class="top__card-coment">
+                  <span class="top__card-coment-value">
+                    67
+                  </span>
+                </div>
+              </div>
+            </div>
+            
+
+            <p class="top__card-description">
+              Наводницький парк - знаходиться у Печерському районі.
+              Парк є пам'ятками садово-паркового мистецтва та природи місцевого значення.
+            </p>
+
+            <a href="#" class="top__card-more">
+             ШУКАТИ БІЛЬШЕ
+            </a>
+          </div>
+          <div class="top__card">
+            <div class="top__card-img">
+              <img src="./top-photos/Kiotto.webp" alt="Парк Кіото" class="top__img">
+              <div class="top__card-stats">
+                <h3 class="top__card-title">
+                  "Кіото"
+                </h3>
+
+                <div class="top__card-likes">
+                  <span class="top__card-likes-value">
+                    821
+                  </span>
+                </div>
+
+                <div class="top__card-coment">
+                  <span class="top__card-coment-value">
+                    156
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <p class="top__card-description">
+              Парк Кіото з'явився зовсім недавно. Довжина алеї складає приблизно 988 м. Вона навіть потрапила до Книги рекордів України, чому кияни дуже раді.
+            </p>
+
+            <a href="#" class="top__card-more">
+             ШУКАТИ БІЛЬШЕ
+            </a>
+          </div>
+          <div class="top__card">
+            <div class="top__card-img">
+              <img src="./top-photos/Rusy.jpg" alt="Парк Київська Русь" class="top__img">
+              <div class="top__card-stats">
+                <h3 class="top__card-title">
+                  Парк Київська Русь
+                </h3>
+
+                <div class="top__card-likes">
+                  <span class="top__card-likes-value">
+                    621
+                  </span>
+                </div>
+
+                <div class="top__card-coment">
+                  <span class="top__card-coment-value">
+                    99
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <p class="top__card-description">
+              Унікальний туристичний комплекс, який не має аналогів у всьому світі - 
+              Древній Київ в Князівстві Київська Русь.
+            </p>
+
+            <a href="#" class="top__card-more">
+             ШУКАТИ БІЛЬШЕ
+            </a>
+          </div>
+          <div class="top__card">
+            <div class="top__card-img">
+              <img src="./top-photos/Vorota.jpg" alt="Золоті Ворота" class="top__img">
+              <div class="top__card-stats">
+                <h3 class="top__card-title">
+                  Золоті Ворота
+                </h3>
+
+                <div class="top__card-likes">
+                  <span class="top__card-likes-value">
+                    621
+                  </span>
+                </div>
+
+                <div class="top__card-coment">
+                  <span class="top__card-coment-value">
+                    86
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <p class="top__card-description">
+              Золоті ворота являють собою архітектурний пам'ятник оборонного будівництва Київської Русі в період правління Ярослава Мудрого.
+            </p>
+
+            <a href="#" class="top__card-more">
+             ШУКАТИ БІЛЬШЕ
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__item">
+        <div class="footer__logo">
+          <a href="index.html" class="footer__logo-link header__logo">
+            GudUa
+          </a>
+        </div>
+
+        <nav class="footer__nav">
+          <ul class="footer__menu">
+            <li class="footer__menu-item">
+              <h3 class="footer__menu-title">
+                Company
+              </h3>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                About
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Team
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Careers
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Privacy Policy
+              </a>
+            </li>
+            
+          </ul>
+
+          <ul class="footer__menu">
+            <li class="footer__menu-item">
+              <h3 class="footer__menu-title">
+                Locations
+              </h3>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Kyiv
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Odesa
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Kharkiv
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Kherson
+              </a>
+            </li>
+            
+          </ul>
+
+          <ul class="footer__menu">
+            <li class="footer__menu-item">
+              <h3 class="footer__menu-title">
+                Social Media
+              </h3>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Facebook
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Twitter
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Instagram
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Youtube
+              </a>
+            </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+    <script src="./js.js"></script>
+</body>
+</html>
